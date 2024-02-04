@@ -1,0 +1,37 @@
+@import url('file:///C:/Users/Rodolfo/Documents/4%20Arthur%20ok%202020/python/site/site1/mysite.html');
+:root{
+    --primary: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a{
+    color: #fff;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.wrapper{
+    position: relative;
+    top: 60px;
+    left: 685px;
+    width: 500px;
+    height: 600px;
+    background:transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+     background-color:  transparent;
+}
+

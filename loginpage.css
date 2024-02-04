@@ -1,0 +1,212 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('fundo1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    
+}
+.logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    position: relative;
+    margin-left: 40px;
+    
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}   
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.btnlogin{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff ;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.btnlogin:hover{
+    background-color: #fff;
+    color: black;
+}
+.wrapper{
+    position: relative;
+    color: transparent;
+    width: 440px;
+    height: 400px;
+    border: 2px solid #fff .5;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    top: 150px;
+}
+.wrapper .form-box{
+    padding: 40px;
+    width: 100%;
+
+}
+.iconclose{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;   
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+.form-box h2{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0px;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: rotateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputbox input:focus~label,
+.inputbox input:valid~label{
+    top: -5px;
+}
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+
+}
+.inputbox .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    line-height: 57px;
+}
+
+.remeberforgot{
+    font-size: .9em;
+    color: black;
+    font-weight: 500;
+    margin: -15px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.remeberforgot label input{
+    accent-color: black;
+    margin-right: 3px;
+}
+.remeberforgot a{
+        color: black;
+        text-decoration: none;
+}
+.remeberforgot a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: .5s;
+    color: #fff;
+}
+.btn:hover{
+    background: transparent;
+    color: black;
+}
+.loginregister{
+    font-size: .9em;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px 0;
+}
+.loginregister a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+}
+.loginregister a:hover{
+    text-decoration: underline;
+}
