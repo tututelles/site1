@@ -80,8 +80,8 @@ header{
 .wrapper{
     position: relative;
     color: transparent;
-    width: 50ch;
-    height: 60cqh;
+    width: 50vw;
+    height: 60vw;
     border: 2px solid #fff .5;
     border-radius: 20px;
     backdrop-filter: blur(20px);
