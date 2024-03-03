@@ -27,6 +27,8 @@ header{
     align-items: center;
     z-index: 99;
     
+    
+    
 }
 .logo{
     font-size: 2vw;
@@ -80,8 +82,8 @@ header{
 .wrapper{
     position: relative;
     color: transparent;
-    width: 60vw;
-    height: 65vw;
+    width: 80%;
+    height: 35vw;
     border: 2px solid #fff .5;
     border-radius: 20px;
     backdrop-filter: blur(20px);
@@ -113,7 +115,7 @@ header{
     z-index: 1;
 }
 .form-box h2{
-    font-size: 2em;
+    font-size: 250%;
     color: black;
     text-align: center;
 }
