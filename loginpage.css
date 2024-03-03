@@ -37,6 +37,11 @@ header{
     font-size: 2vw;
     color: #fff;
     user-select: none;
+    @media screen max-width(500px){
+        font-size: 6vw;
+    }
+        
+    }
 }
 .navigation a{
     position: relative;
