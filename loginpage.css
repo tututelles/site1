@@ -86,7 +86,7 @@ header{
     position: relative;
     color: transparent;
     width: 80%;
-    height: 35vw;
+    height: 4%;
     border: 2px solid #fff .5;
     border-radius: 20px;
     backdrop-filter: blur(20px);
@@ -118,6 +118,7 @@ header{
     z-index: 1;
 }
 .form-box h2{
+    position: relative;
     font-size: 250%;
     color: black;
     text-align: center;
