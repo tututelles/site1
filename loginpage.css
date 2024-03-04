@@ -38,7 +38,7 @@ header{
     color: #fff;
     user-select: none;
     
-
+}
 .navigation a{
     position: relative;
     font-size: 1.1vw;
@@ -219,3 +219,4 @@ header{
 .loginregister a:hover{
     text-decoration: underline;
 }
+
